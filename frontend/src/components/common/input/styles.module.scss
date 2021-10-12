@@ -1,0 +1,31 @@
+.labelWrapper {
+  position: relative;
+  padding: 24px 0 0;
+
+  .label {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+  }
+
+  .input {
+    padding: 0 15px;
+    font-family: inherit;
+    font-size: 14px;
+    transition: all 1s ease;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #9d9da7;
+    height: 40px;
+  }
+
+  .errorWrapper {
+    font-size: 12px;
+    color: #ff4641;
+
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+}

@@ -1,0 +1,30 @@
+.title:before {
+  content: "🤑";
+}
+
+.formWrapper {
+  .form {
+    background-color: #e8e8f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+  .name {
+    flex: 1 1 200px;
+  }
+  .type {
+    flex: 1 1 200px;
+
+  }
+  .price {
+    flex: 0 0 100px;
+  }
+
+  .btnSubmit {
+    flex: 1 1 100px;
+  }
+}

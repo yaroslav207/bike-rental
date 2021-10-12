@@ -1,0 +1,25 @@
+.itemWrapper {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  .info {
+    span:nth-child(n):after {
+      content: "/";
+      margin: 0 10px;
+    }
+    span:last-child:after {
+      content: "";
+    }
+  }
+
+  .configuration {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+}

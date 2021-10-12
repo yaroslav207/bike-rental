@@ -1,0 +1,32 @@
+.button {
+  padding: 0px 15px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 5px;
+
+  &:hover {
+    filter: brightness(150%);
+  }
+}
+
+.colorGreen {
+  background-color: var(--color-button-green);
+  color: #ffffff;
+}
+
+.colorBlue {
+  background-color: var(--color-button-blue);
+  color: #ffffff;
+}
+
+.colorRed {
+  background-color: var(--color-button-red);
+  color: #ffffff;
+}

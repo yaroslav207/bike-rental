@@ -2,7 +2,11 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
+    "@hookform/error-message": "^2.0.0",
+    "@hookform/resolvers": "^2.8.2",
+    "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -10,12 +14,17 @@
     "@types/node": "^12.20.28",
     "@types/react": "^17.0.27",
     "@types/react-dom": "^17.0.9",
+    "bike-rental-shared": "file:../shared/build",
+    "clsx": "^1.1.1",
+    "query-string": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.1",
+    "react-redux": "^7.2.5",
     "react-scripts": "4.0.3",
+    "react-select": "^5.1.0",
     "typescript": "^4.4.3",
-    "web-vitals": "^1.1.2",
-    "bike-rental-shared": "file:../shared/build"
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
