@@ -2,7 +2,7 @@
 
 1. **`npm run install:all`** at the root
 2. Fill ENVs
-3. **`npx simple-git-hooks`** at the root
+3. **`npm run migrate:dev`** at the backend
 4. **`npm run start:dev`** at the root
 5. Enjoy <3
 
