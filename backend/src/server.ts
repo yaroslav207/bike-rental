@@ -4,6 +4,7 @@ import Knex from 'knex';
 import { Model } from 'objection';
 import { ENV } from './common/enums/enums';
 import knexConfig from '../knexfile';
+import { initApi } from '~/api/api';
 
 const app = express();
 
@@ -11,6 +12,8 @@ Model.knex(Knex(knexConfig[ENV.APP.NODE_ENV]));
 
 app.use(json({ limit: '100mb' }));
 app.use(urlencoded({ extended: true, limit: '100mb' }));
+
+initApi(app);
 
 app.use(express.static(join(__dirname, '../public')));
 app.use('*', (_req, res) => {
